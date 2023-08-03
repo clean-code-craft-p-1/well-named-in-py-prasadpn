@@ -1,5 +1,4 @@
-from test.test_number_pair import test_number_to_pair
-from test.test_pair_number import test_pair_to_number
+from test.test_wire_color_pair import test_number_to_pair, test_pair_to_number
 
 
 if __name__ == '__main__':
