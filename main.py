@@ -1,10 +1,13 @@
+from test_number_pair import test_number_to_pair
+from test_pair_number import test_pair_to_number
+
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
 MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
 
 
 def color_pair_to_string(major_color, minor_color):
-  return f'{major_color} {minor_color}'
+    return f'{major_color} {minor_color}'
 
 
 def get_color_from_pair_number(pair_number):
@@ -28,9 +31,6 @@ def get_pair_number_from_color(major_color, minor_color):
   except ValueError:
     raise Exception('Minor index out of range')
   return major_index * len(MINOR_COLORS) + minor_index + 1
-
-
-
 
 
 if __name__ == '__main__':
