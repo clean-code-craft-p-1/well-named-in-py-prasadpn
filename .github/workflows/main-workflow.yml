@@ -30,4 +30,4 @@ jobs:
     - name: Run
       run: python src/main.py
       env:
-        PYTHONPATH= .
+        PYTHON_PATH=.
