@@ -1,4 +1,5 @@
-from src.wire_color_pair import get_color_from_pair_number, get_pair_number_from_color
+from src.wire_color_pair \
+    import get_color_from_pair_number, get_pair_number_from_color
 
 
 def test_number_to_pair(pair_number,
